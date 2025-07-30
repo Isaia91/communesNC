@@ -1,0 +1,332 @@
+[
+  {
+    "Nom": "Belep",
+    "CodeInsee": 98801,
+    "CodePostal": 98811,
+    "Population": 843,
+    "Superficie": "66.69",
+    "DensitePopulation": "12.64",
+    "Coordonnees": "-19.749798,163.666704",
+    "Province":"Nord"
+  },
+  {
+    "Nom": "Boulouparis",
+    "CodeInsee": 98802,
+    "CodePostal": 98812,
+    "Population": 3005,
+    "Superficie": "909.46",
+    "DensitePopulation": "3.3",
+    "Coordonnees": "-21.865191,166.047621",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Bourail",
+    "CodeInsee": 98803,
+    "CodePostal": 98870,
+    "Population": 5444,
+    "Superficie": "825.34",
+    "DensitePopulation": "6.6",
+    "Coordonnees": "-21.567899,165.497801",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Canala",
+    "CodeInsee": 98804,
+    "CodePostal": 98813,
+    "Population": 3687,
+    "Superficie": "448.25",
+    "DensitePopulation": "8.23",
+    "Coordonnees": "-21.522495,165.960737",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Dumbea",
+    "CodeInsee": 98805,
+    "CodePostal": 98835,
+    "Population": 31812,
+    "Superficie": "258.37",
+    "DensitePopulation": "123.13",
+    "Coordonnees": "-22.167720,166.457659",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Farino",
+    "CodeInsee": 98806,
+    "CodePostal": 98881,
+    "Population": 612,
+    "Superficie": "48.5",
+    "DensitePopulation": "12.62",
+    "Coordonnees": "-21.666938,165.776144",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Hienghène",
+    "CodeInsee": 98807,
+    "CodePostal": 98815,
+    "Population": 2483,
+    "Superficie": "1002.47",
+    "DensitePopulation": "2.48",
+    "Coordonnees": "-20.688440,164.945610",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Houaïlou",
+    "CodeInsee": 98808,
+    "CodePostal": 98816,
+    "Population": 4240,
+    "Superficie": "945.43",
+    "DensitePopulation": "4.48",
+    "Coordonnees": "-21.277712,165.626881",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Île des Pins",
+    "CodeInsee": 98809,
+    "CodePostal": 98832,
+    "Population": 1958,
+    "Superficie": "177.59",
+    "DensitePopulation": "11.03",
+    "Coordonnees": "-22.614395,167.478659",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Kaala-Gomen",
+    "CodeInsee": 98810,
+    "CodePostal": 98817,
+    "Population": 2033,
+    "Superficie": "737.88",
+    "DensitePopulation": "2.76",
+    "Coordonnees": "-20.667086,164.397139",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Kone",
+    "CodeInsee": 98811,
+    "CodePostal": 98859,
+    "Population": 7340,
+    "Superficie": "406.36",
+    "DensitePopulation": "18.06",
+    "Coordonnees": "-21.061662,164.861585",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Kouaoua",
+    "CodeInsee": 98833,
+    "CodePostal": 98818,
+    "Population": 1452,
+    "Superficie": "390.53",
+    "DensitePopulation": "3.72",
+    "Coordonnees": "-21.395985,165.828681",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Koumac",
+    "CodeInsee": 98812,
+    "CodePostal": 98850,
+    "Population": 4252,
+    "Superficie": "562.51",
+    "DensitePopulation": "7.56",
+    "Coordonnees": "-20.560129,164.280148",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "La Foa",
+    "CodeInsee": 98813,
+    "CodePostal": 98880,
+    "Population": 3542,
+    "Superficie": "505.82",
+    "DensitePopulation": "7",
+    "Coordonnees": "-21.708828,165.825177",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Lifou",
+    "CodeInsee": 98814,
+    "CodePostal": 98820,
+    "Population": 9275,
+    "Superficie": "1170.07",
+    "DensitePopulation": "7.93",
+    "Coordonnees": "-20.965254,167.216741",
+    "Province": "Ile loyaute"
+  },
+  {
+    "Nom": "Mare",
+    "CodeInsee": 98815,
+    "CodePostal": 98878,
+    "Population": 5648,
+    "Superficie": "670.22",
+    "DensitePopulation": "8.43",
+    "Coordonnees": "-21.513080,167.965857",
+    "Province": "Ile loyaute"
+  },
+  {
+    "Nom": "Moindou",
+    "CodeInsee": 98816,
+    "CodePostal": 98819,
+    "Population": 709,
+    "Superficie": "346.03",
+    "DensitePopulation": "2.05",
+    "Coordonnees": "-21.690341,165.676036",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Mont-Dore",
+    "CodeInsee": 98817,
+    "CodePostal": 98809,
+    "Population": 27155,
+    "Superficie": "648.94",
+    "DensitePopulation": "41.85",
+    "Coordonnees": "-22.229698,166.523305",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Noumea",
+    "CodeInsee": 98818,
+    "CodePostal": 98800,
+    "Population": 99926,
+    "Superficie": "67.19",
+    "DensitePopulation": "1487.22",
+    "Coordonnees": "-22.271260,166.439699",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Ouegoa",
+    "CodeInsee": 98819,
+    "CodePostal": 98821,
+    "Population": 2360,
+    "Superficie": "678.05",
+    "DensitePopulation": "3.48",
+    "Coordonnees": "-20.343185,164.439313",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Ouvea",
+    "CodeInsee": 98820,
+    "CodePostal": 98814,
+    "Population": 3374,
+    "Superficie": "160.07",
+    "DensitePopulation": "21.08",
+    "Coordonnees": "-20.646791,166.559604",
+    "Province": "Ile loyaute"
+  },
+  {
+    "Nom": "Païta",
+    "CodeInsee": 98821,
+    "CodePostal": 98890,
+    "Population": 20616,
+    "Superficie": "725.8",
+    "DensitePopulation": "28.4",
+    "Coordonnees": "-22.129215,166.361641",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Poindimie",
+    "CodeInsee": 98822,
+    "CodePostal": 98822,
+    "Population": 4868,
+    "Superficie": "674.51",
+    "DensitePopulation": "7.22",
+    "Coordonnees": "-20.937968,165.333562",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Ponerihouen",
+    "CodeInsee": 98823,
+    "CodePostal": 98823,
+    "Population": 2370,
+    "Superficie": "707.67",
+    "DensitePopulation": "3.35",
+    "Coordonnees": "-21.070864,165.401977",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Pouebo",
+    "CodeInsee": 98824,
+    "CodePostal": 98824,
+    "Population": 2452,
+    "Superficie": "212.99",
+    "DensitePopulation": "11.51",
+    "Coordonnees": "-20.391941,164.586532",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Pouembout",
+    "CodeInsee": 98825,
+    "CodePostal": 98825,
+    "Population": 2591,
+    "Superficie": "691.47",
+    "DensitePopulation": "3.75",
+    "Coordonnees": "-21.121392,164.901140",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Poum",
+    "CodeInsee": 98826,
+    "CodePostal": 98826,
+    "Population": 1463,
+    "Superficie": "529.47",
+    "DensitePopulation": "2.76",
+    "Coordonnees": "-20.231605,164.023622",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Poya",
+    "CodeInsee": 98827,
+    "CodePostal": 98827,
+    "Population": 3036,
+    "Superficie": "883.97",
+    "DensitePopulation": "3.43",
+    "Coordonnees": "-21.344638,165.157441",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Sarramea",
+    "CodeInsee": 98828,
+    "CodePostal": 98882,
+    "Population": 584,
+    "Superficie": "106.42",
+    "DensitePopulation": "5.49",
+    "Coordonnees": "-21.642024,165.853732",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Thio",
+    "CodeInsee": 98829,
+    "CodePostal": 98828,
+    "Population": 2643,
+    "Superficie": "1007.14",
+    "DensitePopulation": "2.62",
+    "Coordonnees": "-21.610373,166.215597",
+    "Province": "Sud"
+  },
+  {
+    "Nom": "Touho",
+    "CodeInsee": 98830,
+    "CodePostal": 98831,
+    "Population": 2087,
+    "Superficie": "289.57",
+    "DensitePopulation": "7.21",
+    "Coordonnees": "-20.688440,164.945610",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Voh",
+    "CodeInsee": 98831,
+    "CodePostal": 98833,
+    "Population": 3160,
+    "Superficie": "842.28",
+    "DensitePopulation": "3.75",
+    "Coordonnees": "-20.948792,164.685932",
+    "Province": "Nord"
+  },
+  {
+    "Nom": "Yate",
+    "CodeInsee": 98832,
+    "CodePostal": 98834,
+    "Population": 1747,
+    "Superficie": "1356.36",
+    "DensitePopulation": "1.29",
+    "Coordonnees": "-22.159404,166.942897",
+    "Province": "Sud"
+  }
+]
