@@ -95,7 +95,7 @@ this.dataService.getCommunes().subscribe((data) => {
 
 # Prérequis techniques
 
-- Le module `HttpClientModule` doit être importé dans ton `AppModule` ou ton composant standalone :
+- Le module `HttpClientModule` doit être importé dans  `AppModule` ou un composant standalone :
 
 ```ts
 import { HttpClientModule } from '@angular/common/http';
