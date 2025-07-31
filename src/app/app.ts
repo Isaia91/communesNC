@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { CommuneListComponent } from './components/commune-list/commune-list';
+import { RouterModule } from '@angular/router';
+import { NavbarComponent } from './components/navbar/navbar';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommuneListComponent],
+  imports: [RouterModule,NavbarComponent],
   templateUrl: './app.html',
 })
 export class AppComponent {}

@@ -1,0 +1,57 @@
+<div class="container mt-4">
+  <h2>Visualisations des communes</h2>
+
+  <!-- Onglets -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" [class.active]="activeTabIndex === 0" (click)="setActiveTab(0)" href="javascript:void(0)">Population par commune</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [class.active]="activeTabIndex === 1" (click)="setActiveTab(1)" href="javascript:void(0)">Répartition par province</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [class.active]="activeTabIndex === 2" (click)="setActiveTab(2)" href="javascript:void(0)">Superficie vs Population</a>
+    </li>
+  </ul>
+
+  <!-- Contenu -->
+  <div class="mt-4" style="min-height: 400px;">
+    <!-- Histogramme de population paginé -->
+    <div *ngIf="activeTabIndex === 0">
+      <p-chart type="bar" [data]="paginatedPopulationData" [options]="chartOptions" style="height: 400px;"></p-chart>
+
+      <div class="d-flex justify-content-between align-items-center mt-2">
+        <button class="btn btn-outline-secondary" (click)="prevPopulationPage()" [disabled]="populationChartPage === 0">
+          Précédent
+        </button>
+        <span>Page {{ populationChartPage + 1 }}</span>
+        <button class="btn btn-outline-secondary" (click)="nextPopulationPage()" [disabled]="(populationChartPage + 1) * populationPageSize >= communes.length">
+          Suivant
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Camembert -->
+    <div *ngIf="activeTabIndex === 1">
+      <p-chart type="pie" [data]="pieChartData" [options]="chartOptions" style="height: 400px;"></p-chart>
+    </div>
+
+    <!-- Histogramme des densités paginé -->
+    <div *ngIf="activeTabIndex === 2">
+      <p-chart type="bar" [data]="paginatedDensityData" [options]="chartOptions" style="height: 400px;"></p-chart>
+
+      <div class="d-flex justify-content-between align-items-center mt-2">
+        <button class="btn btn-outline-secondary" (click)="prevDensityPage()" [disabled]="densityChartPage === 0">
+          Précédent
+        </button>
+        <span>Page {{ densityChartPage + 1 }}</span>
+        <button class="btn btn-outline-secondary" (click)="nextDensityPage()" [disabled]="(densityChartPage + 1) * densityPageSize >= communes.length">
+          Suivant
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+</div>

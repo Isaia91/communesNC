@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">Communes NC</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/communes/provinces" routerLinkActive="active">Par province</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/communes/population" routerLinkActive="active">Par population</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/charts/population" routerLinkActive="active">Graphiques</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

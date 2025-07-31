@@ -1,41 +1,47 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h1 class="mt-4">Liste des communes par province</h1>
-      <p class="lead">Sélectionnez une province pour afficher les communes correspondantes.</p>
+      <h1 class="mt-4">Liste des communes par tranche de population</h1>
+      <p class="lead">Sélectionnez une tranche de population pour afficher les communes correspondantes.</p>
     </div>
   </div>
-
   <div class="row">
     <ul class="nav nav-tabs">
-      <li class="nav-item" *ngFor="let province of provinces">
+      <li class="nav-item" *ngFor="let interval of intervals; let i = index">
         <a
           class="nav-link"
-          [class.active]="province === activeProvince"
-          (click)="setActiveProvince(province)"
           href="javascript:void(0)"
+          [class.active]="i === activeIntervalIndex"
+          (click)="setActiveTab(i)"
         >
-          {{ province }}
-          <span class="badge bg-secondary ms-2">{{ communeCountByProvince[province] }}</span>
+          {{ interval.label }}
+          <span class="badge bg-secondary ms-2">
+        {{
+              getCommunesForInterval(interval.min, interval.max).length
+            }}
+      </span>
         </a>
       </li>
     </ul>
 
-    <!-- Cartes des communes -->
+    <!-- Cartes communes -->
     <div class="tab-content mt-3">
       <div class="tab-pane fade show active">
         <div class="row g-3">
           <div
             class="col-12 col-sm-6 col-md-4 col-lg-3"
-            *ngFor="let commune of getCommunesByProvince(activeProvince)"
+            *ngFor="let commune of getCommunesForInterval(
+          intervals[activeIntervalIndex].min,
+          intervals[activeIntervalIndex].max
+        )"
           >
             <div class="card h-100 shadow-sm animated-card">
               <div class="card-body">
                 <h5 class="card-title">{{ commune.Nom }}</h5>
                 <p class="card-text">
                   <strong>Population :</strong> {{ commune.Population | number }}<br />
-                  <strong>Superficie :</strong> {{ commune.Superficie }} km²<br />
-                  <strong>Densité :</strong> {{ commune.DensitePopulation }} hab/km²
+                  <strong>Province :</strong> {{ commune.Province }}<br />
+                  <strong>Superficie :</strong> {{ commune.Superficie }} km²
                 </p>
               </div>
               <div class="card-footer">

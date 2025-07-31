@@ -1,0 +1,69 @@
+<div class="container .header-gradient mt-5">
+  <div class="text-center mb-4 p-5 text-white" style="background: url('assets/images/nouvelle-caledonie.jpg') center/cover no-repeat; border-radius: 0.5rem;">
+    <h1 class="display-5 fw-bold">Bienvenue sur le portail des communes de Nouvelle-Calédonie</h1>
+    <p class="lead">Explorez les données par province, population ou graphiques interactifs.</p>
+  </div>
+
+
+  <div class="row justify-content-center g-4">
+    <!-- Par province -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 text-center shadow-sm border-primary">
+        <div class="card-body">
+          <div class="mb-3">
+            <i class="bi bi-geo-alt-fill fs-1 text-primary"></i>
+          </div>
+          <h5 class="card-title text-primary">Par province</h5>
+          <p class="card-text">Affichez les communes regroupées par province.</p>
+          <a routerLink="/communes/provinces" class="btn btn-outline-primary">Voir les communes</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Par population -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 text-center shadow-sm border-success">
+        <div class="card-body">
+          <div class="mb-3">
+            <i class="bi bi-geo-alt-fill fs-1 text-primary"></i>
+          </div>
+          <h5 class="card-title text-success">Par population</h5>
+          <p class="card-text">Affichez les communes par tranche de population.</p>
+          <a routerLink="/communes/population" class="btn btn-outline-success">Voir les tranches</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Graphiques -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 text-center shadow-sm border-warning">
+        <div class="card-body">
+          <div class="mb-3">
+            <i class="bi bi-geo-alt-fill fs-1 text-primary"></i>
+          </div>
+          <h5 class="card-title text-warning">Visualisations</h5>
+          <p class="card-text">Les graphiques dynamiques des communes.</p>
+          <a routerLink="charts/population" class="btn btn-outline-warning">Voir les graphiques</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 mt-5">
+      <h2 class="text-center">À propos de ce portail</h2>
+      <p class="text-center">
+        Ce portail est conçu pour fournir un accès facile aux données des communes de Nouvelle-Calédonie,
+        permettant aux utilisateurs d'explorer les informations par province, population et à travers des graphiques interactifs.
+      </p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <p class="text-muted">© 2023 Portail des communes de Nouvelle-Calédonie</p>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="text-muted">Conçu avec ❤️ par l'équipe de développement</p>
+      </div>
+</div>
