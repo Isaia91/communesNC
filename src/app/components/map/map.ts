@@ -5,9 +5,9 @@ import { DataService } from '../../services/data.service';
 import { Commune } from '../../models/commune.model';
 import { take } from 'rxjs';
 
-import 'leaflet/dist/leaflet.css';
+//import 'leaflet/dist/leaflet.css';
 
-// 🔧 Correction des chemins d'icônes (Angular ne les trouve pas tout seul)
+// Correction des chemins d'icônes (Angular ne les trouve pas tout seul)
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 
 L.Icon.Default.mergeOptions({
