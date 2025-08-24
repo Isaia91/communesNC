@@ -1,3 +1,7 @@
+# Disponible sur netlify
+
+https://communesnc.netlify.app/
+
 # Objectif
 
 Ce projet Angular charge dynamiquement les données des **communes de Nouvelle-Calédonie** (nom, population, densité, coordonnées, etc.) depuis un fichier JSON grâce à un service Angular dédié (`DataService`).\
